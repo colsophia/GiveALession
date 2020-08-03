@@ -1,0 +1,29 @@
+字节流：
+    以字节为单位输入输出数据，字节流按照8位传输
+    stream结尾都是字节流
+    只是读写文件，和文件内容无关的，一般选择字节流
+字符流：
+    以字符为单位输入输出数据，字符流按照16位传输
+    reader和writer结尾都是字符流
+    字符流在操作的时候是使用到缓冲区的。如果字符流不调用close或flush方法，则不会输出任何内容
+
+如果是音频文件、图片、歌曲，就用字节流好点
+如果是关系到中文（文本）的，用字符流好点
+
+
+
+字节流：
+    文件流：
+        文件输入流：FileInputStream
+        文件输出流：FileOutputStream
+        有一个方法：read() 读取字节量
+        String(byte[] data,int offset,int len,String csn)
+        将给定字节数组中从下标offset处开始的连续len个字节按照指定的字符集还原字符串
+    对象流： 多用于序列化和反序列化
+        对象输入流：ObjectInputStream
+        对象输出流：ObjectOutputStream
+    缓冲流：
+        缓冲输入流：BufferedInputStream
+        缓冲输出流：BufferedOutputStream
+        调用缓冲流的flush方法可以强制将缓冲流中已经缓存的数据一次性写出
+字符流：

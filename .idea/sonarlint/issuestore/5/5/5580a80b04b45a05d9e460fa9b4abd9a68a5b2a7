@@ -1,0 +1,6 @@
+
+U
+java:S1854"8Remove this useless assignment to local variable "flag".(Ýö–ë8°ßˆ¦±.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼ÛÑÌ
+F
+java:S1481")Remove this unused "flag" local variable.(Ýö–ë8°ßˆ¦±.

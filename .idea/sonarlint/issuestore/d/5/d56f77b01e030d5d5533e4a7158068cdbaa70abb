@@ -1,0 +1,22 @@
+
+
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷™À§8¢¡¶—².
+J
+java:S1481("(Remove this unused "shi" local variable.(©—°çøÿÿÿÿ8Õ¢®—².
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ßÅƒÂÿÿÿÿÿ8®ğ”—².
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ş¶Ç­ûÿÿÿÿ8‡œ—².
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€ĞÒ§ıÿÿÿÿ
+Y
+java:S1854("7Remove this useless assignment to local variable "shi".(©—°çøÿÿÿÿ8Õ¢®—².
+F
+java:S1481&")Remove this unused "qian" local variable.(ÆÊºÆ8Õ¢®—².
+S
+java:S1854)"6Remove this useless assignment to local variable "ge".(ÜÖÄ8Õ¢®—².
+U
+java:S1854&"8Remove this useless assignment to local variable "qian".(ÆÊºÆ8Õ¢®—².
+D
+java:S1481)"'Remove this unused "ge" local variable.(ÜÖÄ8Õ¢®—².
+T
+java:S1854'"7Remove this useless assignment to local variable "bai".(üƒ¸8Õ¢®—².
+E
+java:S1481'"(Remove this unused "bai" local variable.(üƒ¸8Õ¢®—².

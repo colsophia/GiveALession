@@ -1,0 +1,43 @@
+讲解此知识点需要先了解jvm的内存结构
+---------------------------------------------------------
+反汇编命名：
+    javap -c class字节码文件
+
+案例：
+    反汇编我们的Test2.class文件
+ Code:
+       0: iconst_1   将一个常量a=1加载到操作数栈
+       1: istore_1   将一个数值a=1从操作数栈存储到局部变量表索引为1处
+       2: iload_1    将存储在局部变量中索引为1的整数压入操作数栈中
+       3: iinc 1, 1  局部变量表索引1处的变量（a）加 1,注意操作数栈中值还是1
+       6: istore_1   将一个数值a=1从操作数栈存储到局部变量表索引为1处
+       7: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      10: iload_1    将存储在局部变量中索引为1的整数压入操作数栈中
+      11: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+      14: return
+
+---------------------------------------------------------
+JVM字节码之整型入栈指令(iconst、bipush、sipush、ldc)：将一个常量加载到操作数栈
+
+iconst:
+    当int取值-1~5时，JVM采用iconst指令将常量压入栈中
+    案例：TestIconst.java
+
+bipush:
+    当int取值-128~127时[不包括-1~5]，JVM采用bipush指令将常量压入栈中
+    案例：Testbipush.java
+
+sipush:
+    当int取值-32768~32767[不包括-1~5和-128~127]时，JVM采用sipush指令将常量压入栈中
+    案例：Testsipush.java
+
+ldc:
+    当int取值-2147483648~2147483647时，JVM采用ldc指令将常量压入栈中
+    案例：Testldc.java
+
+---------------------------------------------------------
+JVM字节码之load系列：
+    该系列命令负责把本地变量的值送到栈顶
+
+
+操作数栈：大多数指令都要从这里弹出数据，执行运算，然后把结果压回操作数栈

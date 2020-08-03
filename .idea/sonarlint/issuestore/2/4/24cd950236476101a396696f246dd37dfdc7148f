@@ -1,0 +1,26 @@
+
+R
+java:S1854"5Remove this useless assignment to local variable "e".(íÊ¬8ù¾Ÿ”±.
+W
+java:S1854"5Remove this useless assignment to local variable "d".(ÜØú‚üÿÿÿÿ8ù¾Ÿ”±.
+W
+java:S1854"5Remove this useless assignment to local variable "v".(ŞºŞùÿÿÿÿ8ù¾Ÿ”±.
+W
+java:S1854"5Remove this useless assignment to local variable "b".(Õºúÿÿÿÿ8ù¾Ÿ”±.
+H
+java:S1481"&Remove this unused "d" local variable.(ÜØú‚üÿÿÿÿ8ù¾Ÿ”±.
+W
+java:S1854"5Remove this useless assignment to local variable "c".(óÿ°Ùûÿÿÿÿ8ù¾Ÿ”±.
+H
+java:S1481"&Remove this unused "c" local variable.(óÿ°Ùûÿÿÿÿ8ù¾Ÿ”±.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈÁ¤Âÿÿÿÿÿ
+H
+java:S1481"&Remove this unused "v" local variable.(ŞºŞùÿÿÿÿ8ù¾Ÿ”±.
+H
+java:S1481"&Remove this unused "a" local variable.(ô„ìùÿÿÿÿ8ù¾Ÿ”±.
+W
+java:S1854"5Remove this useless assignment to local variable "a".(ô„ìùÿÿÿÿ8ù¾Ÿ”±.
+H
+java:S1481"&Remove this unused "b" local variable.(Õºúÿÿÿÿ8ù¾Ÿ”±.
+C
+java:S1481"&Remove this unused "e" local variable.(íÊ¬8ù¾Ÿ”±.

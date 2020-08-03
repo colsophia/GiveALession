@@ -1,0 +1,11 @@
+
+G
+java:S1481 "*Remove this unused "house" local variable.(ë’¨¥8’¦ÃÁ´.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ëå¼øÿÿÿÿ
+V
+java:S1854 "9Remove this useless assignment to local variable "house".(ë’¨¥8’¦ÃÁ´.
+W
+java:S1854"5Remove this useless assignment to local variable "a".(ñÄîÏúÿÿÿÿ8‰ƒ«Á´.
+H
+java:S1481"&Remove this unused "a" local variable.(ñÄîÏúÿÿÿÿ8åæ±Á´.
+X	java:S125<"<This block of commented-out lines of code should be removed.(Ø‘öç8ôÖëÁ´.
